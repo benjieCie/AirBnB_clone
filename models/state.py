@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""This module creates a Review class"""
+"""This module creates a State class"""
 
 from models.base_model import BaseModel
 
 
-class Review(BaseModel):
-    """Class for managing review objects"""
+class State(BaseModel):
+    """Class for managing state objects"""
 
-    place_id = ""
-    user_id = ""
-    text = ""
+    name = ""
